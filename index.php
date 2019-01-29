@@ -584,7 +584,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<a href="galery.php" target="_blank">
+							<a href="galery.php?id=1" target="_blank">
 							<div class="project" style="background-image: url(images/img-1.jpg);">
 								<div class="desc">
 									<div class="con">

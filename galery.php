@@ -16,26 +16,27 @@
 </head>
 <body>
 	<header>
-		<a href="http://bitacoraweb.info" target="_blank"><img src="http://bitacoraweb.info/wp-content/uploads/2015/10/bitacora.png" width="400" border="0"></a>
-		<h1>Galeria de Proyectos</h1>
+    <h1>Galeria de Proyectos</h1>
 	</header>
 	<div class="container galeria">
 		<articles class="row">
+      <?php if (isset($_GET['id']) && $_GET['id'] == 1) { ?>
 			<article class="col-md-3">
 				<a href="galery/images/img1.jpg" data-lightbox="example-set" data-title="Regala">
 				<img src="galery/images/img1.jpg" alt="Regala" class="img-thumbnail" height="180" width="265"></a>
-				<p>Regala</p>
+				<p>Dashboar I</p>
 			</article>
 			<article class="col-md-3">
 				<a href="galery/images/img2.jpg" data-lightbox="example-set" data-title="Descansa">
 				<img src="galery/images/img2.jpg" alt="Descansa" class="img-thumbnail" height="180" width="265"></a>
-				<p>Descansa</p>
+				<p>Dashboar II</p>
 			</article>
 			<article class="col-md-3">
 				<a href="galery/images/img3.jpg" data-lightbox="example-set" data-title="Empatiza">
 				<img src="galery/images/img3.jpg" alt="Empatiza" class="img-thumbnail" height="180" width="265"></a>
-				<p>Empatiza</p>
+				<p>Orden de Trabajo</p>
 			</article>
+    <?php }else{ ?>
 			<article class="col-md-3">
 				<a href="galery/images/img4.jpg" data-lightbox="example-set" data-title="Ház deporte">
 				<img src="galery/images/img4.jpg" alt="Ház deporte" class="img-thumbnail"></a>
@@ -61,6 +62,7 @@
 				<img src="galery/images/img8.jpg" alt="Relájate" class="img-thumbnail"></a>
 				<p>Relájate</p>
 			</article>
+      <?php } ?>
 		</articles>
 	</div>
 	<footer>
