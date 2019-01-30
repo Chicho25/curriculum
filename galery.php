@@ -36,30 +36,45 @@
 				<img src="galery/images/img3.jpg" alt="Empatiza" class="img-thumbnail" height="180" width="265"></a>
 				<p>Orden de Trabajo</p>
 			</article>
-    <?php }else{ ?>
+    <?php }elseif(isset($_GET['id']) && $_GET['id'] == 2){ ?>
 			<article class="col-md-3">
-				<a href="galery/images/img4.jpg" data-lightbox="example-set" data-title="Ház deporte">
-				<img src="galery/images/img4.jpg" alt="Ház deporte" class="img-thumbnail"></a>
+				<a href="galery/images/4.jpg" data-lightbox="example-set" data-title="Ház deporte">
+				<img src="galery/images/4.jpg" alt="Ház deporte" class="img-thumbnail"></a>
 				<p>Ház deporte</p>
 			</article>
 			<article class="col-md-3">
-				<a href="galery/images/img5.jpg" data-lightbox="example-set" data-title="Vuela">
-				<img src="galery/images/img5.jpg" alt="Vuela" class="img-thumbnail"></a>
+				<a href="galery/images/5.jpg" data-lightbox="example-set" data-title="Vuela">
+				<img src="galery/images/5.jpg" alt="Vuela" class="img-thumbnail"></a>
 				<p>Vuela</p>
 			</article>
 			<article class="col-md-3">
-				<a href="galery/images/img6.jpg" data-lightbox="example-set" data-title="Sueña">
-				<img src="galery/images/img6.jpg" alt="Sueña" class="img-thumbnail"></a>
+				<a href="galery/images/6.jpg" data-lightbox="example-set" data-title="Sueña">
+				<img src="galery/images/6.jpg" alt="Sueña" class="img-thumbnail"></a>
 				<p>Sueña</p>
 			</article>
 			<article class="col-md-3">
-				<a href="galery/images/img7.jpg" data-lightbox="example-set" data-title="Viaja">
-				<img src="galery/images/img7.jpg" alt="Viaja" class="img-thumbnail"></a>
+				<a href="galery/images/7.jpg" data-lightbox="example-set" data-title="Viaja">
+				<img src="galery/images/7.jpg" alt="Viaja" class="img-thumbnail"></a>
 				<p>Viaja</p>
 			</article>
 			<article class="col-md-3">
-				<a href="galery/images/img8.jpg" data-lightbox="example-set" data-title="Relájate">
-				<img src="galery/images/img8.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<a href="galery/images/8.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/8.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/9.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/9.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/10.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/10.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/11.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/11.jpg" alt="Relájate" class="img-thumbnail"></a>
 				<p>Relájate</p>
 			</article>
       <?php } ?>
