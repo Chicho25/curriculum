@@ -77,7 +77,44 @@
 				<img src="galery/images/11.jpg" alt="Relájate" class="img-thumbnail"></a>
 				<p>Relájate</p>
 			</article>
-      <?php } ?>
+      <?php }elseif(isset($_GET['id']) && $_GET['id'] == 3){ ?>
+			<article class="col-md-3">
+				<a href="galery/images/14.jpg" data-lightbox="example-set" data-title="Vuela">
+				<img src="galery/images/14.jpg" alt="Vuela" class="img-thumbnail"></a>
+				<p>Vuela</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/15.jpg" data-lightbox="example-set" data-title="Sueña">
+				<img src="galery/images/15.jpg" alt="Sueña" class="img-thumbnail"></a>
+				<p>Sueña</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/16.jpg" data-lightbox="example-set" data-title="Viaja">
+				<img src="galery/images/16.jpg" alt="Viaja" class="img-thumbnail"></a>
+				<p>Viaja</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/17.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/17.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/18.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/18.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/19.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/19.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/20.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/20.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+
+	  <?php } ?>
 		</articles>
 	</div>
 	<footer>

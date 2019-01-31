@@ -618,19 +618,21 @@
 							</a>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<a href="galery.php?id=3" target="_blank">
 							<div class="project" style="background-image: url(images/img-3.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
+										<h3>Elecciones</h3>
+										<span>Elecciones</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<!--<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>-->
 										</p>
 									</div>
 								</div>
 							</div>
+							</a>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
 							<div class="project" style="background-image: url(images/img-4.jpg);">
