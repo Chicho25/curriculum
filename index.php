@@ -669,15 +669,15 @@
 							</a>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
+							<div class="project" style="background-image: url(images/otros.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
+										<h3><a href="work.html">Otros Proyectos</a></h3>
+										<span>Otros Proyectos</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<!--<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>-->
 										</p>
 									</div>
 								</div>
