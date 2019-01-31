@@ -619,7 +619,7 @@
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
 							<a href="galery.php?id=3" target="_blank">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
+							<div class="project" style="background-image: url(images/elec.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3>Elecciones</h3>
@@ -635,34 +635,38 @@
 							</a>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
+							<a href="galery.php?id=4" target="_blank">
+							<div class="project" style="background-image: url(images/rutas.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
+										<h3>Rutas</h3>
+										<span>Rutas</span>
 										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<!--<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>-->
 										</p>
 									</div>
 								</div>
 							</div>
+							</a>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
+							<a href="galery.php?id=5" target="_blank">
+							<div class="project" style="background-image: url(images/cal.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
+										<h3>CRM / Contable / Administrativo</h3>
+										<span>CRM / Contable / Administrativo</span>
+										<p class="icon"><!--
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>-->
 										</p>
 									</div>
 								</div>
 							</div>
+							</a>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="project" style="background-image: url(images/img-6.jpg);">

@@ -114,7 +114,80 @@
 				<p>Relájate</p>
 			</article>
 
-	  <?php } ?>
+	  <?php }elseif(isset($_GET['id']) && $_GET['id'] == 4){ ?>
+
+      <article class="col-md-3">
+				<a href="galery/images/21.jpg" data-lightbox="example-set" data-title="Vuela">
+				<img src="galery/images/21.jpg" alt="Vuela" class="img-thumbnail"></a>
+				<p>Vuela</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/22.jpg" data-lightbox="example-set" data-title="Sueña">
+				<img src="galery/images/22.jpg" alt="Sueña" class="img-thumbnail"></a>
+				<p>Sueña</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/23.jpg" data-lightbox="example-set" data-title="Viaja">
+				<img src="galery/images/23.jpg" alt="Viaja" class="img-thumbnail"></a>
+				<p>Viaja</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/24.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/24.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/25.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/25.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/32.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/32.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/33.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/33.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+
+    <?php }elseif(isset($_GET['id']) && $_GET['id'] == 5){ ?>
+
+      <article class="col-md-3">
+				<a href="galery/images/26.jpg" data-lightbox="example-set" data-title="Sueña">
+				<img src="galery/images/26.jpg" alt="Sueña" class="img-thumbnail"></a>
+				<p>Sueña</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/27.jpg" data-lightbox="example-set" data-title="Viaja">
+				<img src="galery/images/27.jpg" alt="Viaja" class="img-thumbnail"></a>
+				<p>Viaja</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/28.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/28.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/29.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/29.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/30.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/30.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+			<article class="col-md-3">
+				<a href="galery/images/31.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="galery/images/31.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+
+    <?php }elseif(isset($_GET['id']) && $_GET['id'] == 6){ ?>
+
+    <?php } ?>
 		</articles>
 	</div>
 	<footer>
