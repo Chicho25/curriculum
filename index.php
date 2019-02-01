@@ -70,7 +70,6 @@
 						<li><a href="#" data-nav-section="education">Educacion</a></li>
 						<li><a href="#" data-nav-section="experience">Experiencia</a></li>
 						<li><a href="#" data-nav-section="work">Portafolio</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
 						<li><a href="#" data-nav-section="contact">Contacto</a></li>
 					</ul>
 				</div>
@@ -98,8 +97,8 @@
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
-						   					<h1><br>Pedro Arrieta</h1>
-						   					<h2>Desarrollador <a href="https://colorlib.com/" target="_blank">mipagina.com</a></h2>
+						   					<h1><br>Lenguajes</h1>
+						   					<h2>Programacion <a href="https://colorlib.com/" target="_blank">mipagina.com</a></h2>
 												<p><a class="btn btn-primary btn-learn">Descargar CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
@@ -114,9 +113,9 @@
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner">
 					   					<div class="desc">
-						   					<h1><br>Desarrollando el Futuro</h1>
-												<h2>Transformando el mismo<a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+						   					<h1><br>Project Manajer</h1>
+												<h2>Direccion de proyectos<a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
+												<p><a class="btn btn-primary btn-learn">Descargar CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -136,10 +135,19 @@
 									<div class="about-desc">
 										<span class="heading-meta">Acerca de..</span>
 										<h2 class="colorlib-heading">Quien soy?</h2>
-										<p><strong>Pedro Arrieta</strong> Estoy altamente preparado como programador web, con un largo recorrido en desarrollo de aplcaciones y gestión de proyectos y un historial de trabajos cercanos con los clientes para obtener óptimos resultados.
+										<p>Nombre: <strong>Pedro Arrieta</strong> <br> 
+										   Edad: <strong>31</strong><br>
+										   Nacionalidad: <strong>Venezolano</strong><br>
+										   Direccion: <strong>Panama, Panama</strong> <br>
+										   Tipo de documento: <strong>Cedula E</strong>
+										</p>
+											<p>Soy Pedro Arrieta, Venezolano, llevo mas de 5 años viviendo en Panamá como residente permanente cedulado. 
+											Estoy altamente preparado como programador web, con un largo recorrido en desarrollo de aplcaciones y gestión de proyectos y un 
+											historial de trabajos cercanos con las empresas para obtener óptimos resultados.
 											Mi objetivo como programador es desarrollar sistemas creativos, funcionales y tecnológicamente avanzados.
 										</p>
-										<p>Mi deseo de ayudar a los clientes a conseguir sus objetivos, mejorando y automatizando sus procesos, incluyendo la colaboración estrecha y la resolución de problemas.</p>
+										<p>Mi deseo de ayudar a las empresas a conseguir sus objetivos, mejorando y automatizando sus procesos, 
+											incluyendo la colaboración estrecha y la resolución de problemas.</p>
 									</div>
 								</div>
 							</div>
@@ -173,7 +181,7 @@
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 									<div class="hire">
 										<h2>Portafolio <br>Más de 100+ proyectos realizados!</h2>
-										<a href="#" class="btn-hire">Aqui</a>
+										<!--<a href="#" class="btn-hire">Aqui</a>-->
 									</div>
 								</div>
 							</div>
@@ -686,60 +694,11 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+							<p><!--<a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a>--></p>
 						</div>
 					</div>
 				</div>
 			</section>
-
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
