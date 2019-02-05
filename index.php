@@ -29,7 +29,7 @@
 		$message .= $attachment.$eol;
 		$message .= "--".$separator."--";
 
-		if(mail($to, $subject, $message, $headers){
+		if(mail($to, $subject, $message, $headers)){
 			$mensaje = '<div class="alert alert-successk alert-dismissible fade show" role="alert">
 									  <strong>Mensaje Enviado!</strong> El mensaje fue enviado con exito, Pronto me estare comunicando con usted.
 									  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -99,7 +99,7 @@
 		<?php echo $mensaje; ?>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/avatar.png);"></div>
+				<div class="author-img" style="background-image: url(images/pedroarrieta.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Pedro Arrieta</a></h1>
 				<span class="position"><a href="#">Desarrollador</a> ~ Project Manager</span>
 			</div>
