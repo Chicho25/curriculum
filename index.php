@@ -1,3 +1,45 @@
+<?php
+	$mensaje = "";
+	if (isset($_POST['mensaje'])) {
+
+		$subject = 'Curriculum WEB: '.$_POST['nombre'];
+		$email_cv = "pedroarrieta25@hotmail.com";
+		$to = $email_cv;
+		$conpania_nombre = 'CV';
+		$repName = 'Pedro Arrieta';
+		$eol = PHP_EOL;
+		$separator = md5(time());
+		$headers = 'From: '.$repName.' <'.$_POST['email'].'>'.$eol;
+		$headers .= 'MIME-Version: 1.0' .$eol;
+		$headers .= "Content-Type: multipart/mixed; boundary=\"".$separator."\"";
+		$message = "--".$separator.$eol;
+		$message .= "Content-Transfer-Encoding: 7bit".$eol.$eol;
+		$message .= "Mensaje evniado desde la web CV." .$eol;
+		$message .= "Nombre: ".$_POST['nombre'].' '.$eol;
+		$message .= "Email: .".$_POST['email'].' '.$eol;
+		$message .= "Asunto:".$_POST['asunto'].' '.$eol;
+		$message .= "Mensaje: ".$_POST['mensaje'].' '.$eol;
+		$message .= "--".$separator.$eol;
+		$message .= "Content-Type: text/html; charset=\"iso-8859-1\"".$eol;
+		$message .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
+		$message .= "--".$separator.$eol;
+		$message .= "Content-Type: application/pdf; name=\"".$fileName."\"".$eol;
+		$message .= "Content-Transfer-Encoding: base64".$eol;
+		$message .= "Content-Disposition: attachment".$eol.$eol;
+		$message .= $attachment.$eol;
+		$message .= "--".$separator."--";
+
+		if(mail($to, $subject, $message, $headers){
+			$mensaje = '<div class="alert alert-successk alert-dismissible fade show" role="alert">
+									  <strong>Mensaje Enviado!</strong> El mensaje fue enviado con exito, Pronto me estare comunicando con usted.
+									  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									    <span aria-hidden="true">&times;</span>
+									  </button>
+									</div>';
+		}
+
+	}
+ ?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -54,6 +96,7 @@
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<?php echo $mensaje; ?>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/avatar.png);"></div>
@@ -135,18 +178,18 @@
 									<div class="about-desc">
 										<span class="heading-meta">Acerca de..</span>
 										<h2 class="colorlib-heading">Quien soy?</h2>
-										<p>Nombre: <strong>Pedro Arrieta</strong> <br> 
+										<p>Nombre: <strong>Pedro Arrieta</strong> <br>
 										   Edad: <strong>31</strong><br>
 										   Nacionalidad: <strong>Venezolano</strong><br>
 										   Direccion: <strong>Panama, Panama</strong> <br>
 										   Tipo de documento: <strong>Cedula E</strong>
 										</p>
-											<p>Soy Pedro Arrieta, Venezolano, llevo mas de 5 años viviendo en Panamá como residente permanente cedulado. 
-											Estoy altamente preparado como programador web, con un largo recorrido en desarrollo de aplcaciones y gestión de proyectos y un 
+											<p>Soy Pedro Arrieta, Venezolano, llevo mas de 5 años viviendo en Panamá como residente permanente cedulado.
+											Estoy altamente preparado como programador web, con un largo recorrido en desarrollo de aplcaciones y gestión de proyectos y un
 											historial de trabajos cercanos con las empresas para obtener óptimos resultados.
 											Mi objetivo como programador es desarrollar sistemas creativos, funcionales y tecnológicamente avanzados.
 										</p>
-										<p>Mi deseo de ayudar a las empresas a conseguir sus objetivos, mejorando y automatizando sus procesos, 
+										<p>Mi deseo de ayudar a las empresas a conseguir sus objetivos, mejorando y automatizando sus procesos,
 											incluyendo la colaboración estrecha y la resolución de problemas.</p>
 									</div>
 								</div>
@@ -587,7 +630,10 @@
 					</div>
 					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+							<p class="work-menu"><span><a href="#" class="active">Proyectos</a></span>
+																	 <span><a href="#"></a></span>
+																	 <span><a href="#"></a></span>
+																	 <span><a href="#"></a></span></p>
 						</div>
 					</div>
 					<div class="row">
@@ -739,25 +785,24 @@
 						<div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
+									<form action="" method="post">
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Nombre">
+											<input type="text" name="nombre" class="form-control" placeholder="Nombre">
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
+											<input type="text" name="email" class="form-control" placeholder="Email">
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Asunto">
+											<input type="text" name="asunto" class="form-control" placeholder="Asunto">
 										</div>
 										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
+											<textarea name="mensaje" id="message" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
 										</div>
 										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Enviar Mensage">
+											<input type="submit" name="mensaje" class="btn btn-primary btn-send-message" value="Enviar Mensage">
 										</div>
 									</form>
 								</div>
-
 							</div>
 						</div>
 					</div>
