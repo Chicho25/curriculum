@@ -16,16 +16,16 @@
 		$message .= "Content-Transfer-Encoding: 7bit".$eol.$eol;
 		$message .= "Mensaje evniado desde la web CV." .$eol;
 		$message .= "Nombre: ".$_POST['nombre'].' '.$eol;
-		$message .= "Email: .".$_POST['email'].' '.$eol;
+		$message .= "Email: ".$_POST['email'].' '.$eol;
 		$message .= "Asunto:".$_POST['asunto'].' '.$eol;
 		$message .= "Mensaje: ".$_POST['mensaje'].' '.$eol;
 		$message .= "--".$separator.$eol;
-		//$message .= "Content-Type: text/html; charset=\"iso-8859-1\"".$eol;
-		//$message .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
-		//$message .= "--".$separator.$eol;
+		$message .= "Content-Type: text/html; charset=\"iso-8859-1\"".$eol;
+		$message .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
+		$message .= "--".$separator.$eol;
 		//$message .= "Content-Type: application/pdf; name=\"".$fileName."\"".$eol;
-		//$message .= "Content-Transfer-Encoding: base64".$eol;
-		//$message .= "Content-Disposition: attachment".$eol.$eol;
+		$message .= "Content-Transfer-Encoding: base64".$eol;
+		$message .= "Content-Disposition: attachment".$eol.$eol;
 		//$message .= $attachment.$eol;
 		$message .= "--".$separator."--";
 
@@ -64,7 +64,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -784,16 +784,16 @@
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
 									<form action="" method="post">
 										<div class="form-group">
-											<input type="text" name="nombre" class="form-control" placeholder="Nombre">
+											<input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
 										</div>
 										<div class="form-group">
-											<input type="text" name="email" class="form-control" placeholder="Email">
+											<input type="text" name="email" class="form-control" placeholder="Email" required>
 										</div>
 										<div class="form-group">
-											<input type="text" name="asunto" class="form-control" placeholder="Asunto">
+											<input type="text" name="asunto" class="form-control" placeholder="Asunto" required>
 										</div>
 										<div class="form-group">
-											<textarea name="mensaje" id="message" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
+											<textarea name="mensaje" id="message" cols="30" rows="7" class="form-control" placeholder="Mensaje" required></textarea>
 										</div>
 										<div class="form-group">
 											<input type="submit" name="mensajeB" class="btn btn-primary btn-send-message" value="Enviar Mensage">
