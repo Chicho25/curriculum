@@ -1,6 +1,6 @@
 <?php
 	$mensaje = "";
-	if (isset($_POST['mensaje'])) {
+	if (isset($_POST['mensajeB'])) {
 
 		$subject = 'Curriculum WEB: '.$_POST['nombre'];
 		$email_cv = "pedroarrieta25@hotmail.com";
@@ -20,22 +20,19 @@
 		$message .= "Asunto:".$_POST['asunto'].' '.$eol;
 		$message .= "Mensaje: ".$_POST['mensaje'].' '.$eol;
 		$message .= "--".$separator.$eol;
-		$message .= "Content-Type: text/html; charset=\"iso-8859-1\"".$eol;
-		$message .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
-		$message .= "--".$separator.$eol;
-		$message .= "Content-Type: application/pdf; name=\"".$fileName."\"".$eol;
-		$message .= "Content-Transfer-Encoding: base64".$eol;
-		$message .= "Content-Disposition: attachment".$eol.$eol;
-		$message .= $attachment.$eol;
+		//$message .= "Content-Type: text/html; charset=\"iso-8859-1\"".$eol;
+		//$message .= "Content-Transfer-Encoding: 8bit".$eol.$eol;
+		//$message .= "--".$separator.$eol;
+		//$message .= "Content-Type: application/pdf; name=\"".$fileName."\"".$eol;
+		//$message .= "Content-Transfer-Encoding: base64".$eol;
+		//$message .= "Content-Disposition: attachment".$eol.$eol;
+		//$message .= $attachment.$eol;
 		$message .= "--".$separator."--";
 
 		if(mail($to, $subject, $message, $headers)){
-			$mensaje = '<div class="alert alert-successk alert-dismissible fade show" role="alert">
-									  <strong>Mensaje Enviado!</strong> El mensaje fue enviado con exito, Pronto me estare comunicando con usted.
-									  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-									    <span aria-hidden="true">&times;</span>
-									  </button>
-									</div>';
+			$mensaje = '<script>
+							alert("Mensaje Enviado");
+						</script>';
 		}
 
 	}
@@ -67,7 +64,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-
+	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -93,10 +90,10 @@
 
 	</head>
 	<body>
+	<?php echo $mensaje; ?>
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<?php echo $mensaje; ?>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/pedroarrieta.jpg);"></div>
@@ -120,10 +117,10 @@
 
 			<div class="colorlib-footer">
 				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<!--<li><a href="#"><i class="icon-facebook2"></i></a></li>
 					<li><a href="#"><i class="icon-twitter2"></i></a></li>
 					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>-->
 				</ul>
 			</div>
 
@@ -141,8 +138,8 @@
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
 						   					<h1><br>Lenguajes</h1>
-						   					<h2>Programacion <a href="https://colorlib.com/" target="_blank">mipagina.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">Descargar CV <i class="icon-download4"></i></a></p>
+						   					<h2>Programacion</h2>
+												<p><a href="cv/cv.pdf" target="_blank" class="btn btn-primary btn-learn" >Descargar CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -157,8 +154,8 @@
 					   				<div class="slider-text-inner">
 					   					<div class="desc">
 						   					<h1><br>Project Manajer</h1>
-												<h2>Direccion de proyectos<a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">Descargar CV <i class="icon-download4"></i></a></p>
+												<h2>Direccion de proyectos</h2>
+												<p><a href="cv/cv.pdf" target="_blank" class="btn btn-primary btn-learn">Descargar CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
 					   			</div>
@@ -799,7 +796,7 @@
 											<textarea name="mensaje" id="message" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
 										</div>
 										<div class="form-group">
-											<input type="submit" name="mensaje" class="btn btn-primary btn-send-message" value="Enviar Mensage">
+											<input type="submit" name="mensajeB" class="btn btn-primary btn-send-message" value="Enviar Mensage">
 										</div>
 									</form>
 								</div>
