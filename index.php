@@ -105,7 +105,7 @@
 					<ul>
 						<li class="active"><a href="#" data-nav-section="home">Inicio</a></li>
 						<li><a href="#" data-nav-section="about">Acerca de..</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
+						<li><a href="#" data-nav-section="services">Servicios</a></li>
 						<li><a href="#" data-nav-section="skills">Habilidades</a></li>
 						<li><a href="#" data-nav-section="education">Educacion</a></li>
 						<li><a href="#" data-nav-section="experience">Experiencia</a></li>
@@ -541,7 +541,7 @@
 
 					               <div class="timeline-label">
 					                  <h2><a href="#">Encargado del Departamento de Computo</a> <span>2017-2019</span></h2>
-					                  <p><strong>Empresa:</strong> Gruas SHL.</p>
+					                  <p><strong>Empresa:</strong> SHL.</p>
 														<p><strong>Responsabilidades:</strong> - Desarrollar sistemas informáticos para agilizar procesos, - Dirigir proyectos informatiocs, - Mantener en óptimo funcionamiento
 														todos los equipos de cómputo, tales como: computadores, tabletas, proyectores, laptops, control de accesos,
 														- Mantener comunicacion constante con los proveedores y supervisar instalaciones, - Mantener en óptimo funcionamiento
