@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Registrar Proveedor</title>
+    <title>Registrar Vehicle</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/offcanvas/">
 
@@ -54,8 +54,8 @@
   <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm" style="background-color:#1c7c1a;">
     <img class="mr-3" src="logo/min1i.png" alt="" width="48" height="48">
     <div class="lh-100">
-      <h6 class="mb-0 text-white lh-100">Registrar Proveedor</h6>
-      <small>Registro de Proveedor</small>
+      <h6 class="mb-0 text-white lh-100">Registrar Transportista</h6>
+      <small>Registro de transportista</small>
     </div>
   </div>
 
@@ -63,65 +63,31 @@
   <form>
   <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="inputCity">Nombre</label>
+          <label for="inputCity">Vehiculo</label>
           <input type="text" class="form-control" id="inputCity">
         </div>
           <div class="form-group col-md-6">
-          <label for="inputState">Seleccionar Categoria</label>
-          <select id="inputState" class="form-control">
-            <option selected>Categoria 1</option>
-            <option>Categoria 2</option>
-            <option>Categoria 3</option>
-          </select>
+          <label for="inputCity">Placa</label>
+          <input type="text" class="form-control" id="inputCity">
           </div>
     </div>
     <div class="form-row">
       <div class="form-group col-md-6">
-      <label for="inputCity">Razon Social</label>
+      <label for="inputCity">Capacidad</label>
       <input type="text" class="form-control" id="inputCity">
       </div>
         <div class="form-group col-md-6">
-        <label for="inputState">Seleccionar Pais</label>
+        <label for="inputState">Chofer</label>
         <select id="inputState" class="form-control">
-            <option selected>Pais 1</option>
-            <option>Pais 2</option>
-            <option>Pais 3</option>
+            <option selected>Chofer 1</option>
+            <option>Chofer 2</option>
+            <option>Chofer 3</option>
         </select>
         </div>
     </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-      <label for="inputCity">Telefono</label>
-      <input type="text" class="form-control" id="inputCity">
-      </div>
-        <div class="form-group col-md-6">
-        <label for="inputState">Telefono de oficina</label>
-        <input type="text" class="form-control" id="inputCity">
-        </div>
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-      <label for="inputCity">Correo Electronico</label>
-      <input type="text" class="form-control" id="inputCity">
-      </div>
-        <div class="form-group col-md-6">
-        <label for="inputState">Password</label>
-        <input type="text" class="form-control" id="inputCity">
-        </div>
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-      <label for="inputCity">RUT</label>
-      <input type="text" class="form-control" id="inputCity">
-      </div>
-        <div class="form-group col-md-6">
-        <label for="inputState">DV</label>
-        <input type="text" class="form-control" id="inputCity">
-        </div>
-    </div>
     <div class="form-group">
-        <label for="inputAddress">Direccion</label>
-        <textarea class="form-control" id="inputAddress" placeholder="Direccion"></textarea>
+        <label for="inputAddress">Descripcion</label>
+        <textarea class="form-control" id="inputAddress" placeholder="Descripcion"></textarea>
     </div>
     <button type="submit" class="btn btn-primary" style="background-color:#1c7c1a;">Registrar</button>
    </form>

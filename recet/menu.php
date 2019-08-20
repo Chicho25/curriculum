@@ -13,14 +13,14 @@
     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Proveedores</a>
     <div class="dropdown-menu" aria-labelledby="dropdown01">
       <a class="dropdown-item" href="register_trip.php">Registrar Proveedor</a>
-      <a class="dropdown-item" href="#">Ver Proveedores</a>
+      <a class="dropdown-item" href="view_provider.php">Ver Proveedores</a>
     </div>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clientes</a>
     <div class="dropdown-menu" aria-labelledby="dropdown01">
-      <a class="dropdown-item" href="">Registrar Cliente</a>
-      <a class="dropdown-item" href="#">Ver Clientes</a>
+      <a class="dropdown-item" href="register_customers.php">Registrar Cliente</a>
+      <a class="dropdown-item" href="view_customers.php">Ver Clientes</a>
     </div>
   </li>
   <li class="nav-item dropdown">
@@ -35,9 +35,9 @@
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Transportistas</a>
     <div class="dropdown-menu" aria-labelledby="dropdown01">
-      <a class="dropdown-item" href="#">Registrar Transportista</a>
-      <a class="dropdown-item" href="#">Ver Transportista</a>
-      <a class="dropdown-item" href="#">Ver Trabajos disponibles</a>
+      <a class="dropdown-item" href="register_vehicle.php">Registrar Transportista</a>
+      <a class="dropdown-item" href="view_vwhicles.php">Ver Transportista</a>
+      <a class="dropdown-item" href="view_job.php">Ver Trabajos disponibles</a>
     </div>
   </li>
 

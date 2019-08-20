@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Registrar Proveedor</title>
+    <title>Registrar Cliente</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/offcanvas/">
 
@@ -54,8 +54,8 @@
   <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm" style="background-color:#1c7c1a;">
     <img class="mr-3" src="logo/min1i.png" alt="" width="48" height="48">
     <div class="lh-100">
-      <h6 class="mb-0 text-white lh-100">Registrar Proveedor</h6>
-      <small>Registro de Proveedor</small>
+      <h6 class="mb-0 text-white lh-100">Registrar Cliente</h6>
+      <small>Registro de Cliente</small>
     </div>
   </div>
 

@@ -54,69 +54,41 @@
   <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm" style="background-color:#1c7c1a;">
     <img class="mr-3" src="logo/min1i.png" alt="" width="48" height="48">
     <div class="lh-100">
-      <h6 class="mb-0 text-white lh-100">Materiales</h6>
-      <small>Materiales de reciclaje</small>
+      <h6 class="mb-0 text-white lh-100">Trabajo de transporte</h6>
+      <small>Trabajo de transporte disponibles</small>
     </div>
   </div>
 
   <div class="my-3 p-3 bg-white rounded shadow-sm">
-    <h6 class="border-bottom border-gray pb-2 mb-0">Proveedores</h6>
-    <div class="media text-muted pt-3" data-toggle="modal" data-target="#exampleModal">
-    <img class="bd-placeholder-img mr-2 rounded" width="32" height="32" src="logo/vidrio.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"/>
-    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-        <strong class="d-block text-gray-dark">Botellas de Vidrio</strong>
-        Botellas de vidrio | <b>2 toneladas</b> | Nombre del Proveedor | Nicaragua | Precio 2000 $. | <small>01/08/2019</small>
-      </p>
-    </div>
-    <div class="media text-muted pt-3" data-toggle="modal" data-target="#exampleModal">
-    <img class="bd-placeholder-img mr-2 rounded" width="32" height="32" src="logo/papel.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"/>
-    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-        <strong class="d-block text-gray-dark">Papel</strong>
-        Papel de Reciclaje | <b>800 Kg</b> | Nombre del Proveedor | China | Precio 600 $. | <small>05/08/2019</small>
-      </p>
-    </div>
-    <div class="media text-muted pt-3" data-toggle="modal" data-target="#exampleModal">
-    <img class="bd-placeholder-img mr-2 rounded" width="32" height="32" src="logo/plastico.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"/>
-    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-        <strong class="d-block text-gray-dark">Plastico</strong>
-        Plastico | <b>1500 kg</b> | Nombre del Proveedor | Panamá | Precio 600 $. | <small>10/08/2019</small>
-      </p>
-    </div>
-    <small class="d-block text-right mt-3">
-      <a href="#">Ver todos</a>
-    </small>
-  </div>
-
-  <div class="my-3 p-3 bg-white rounded shadow-sm">
-    <h6 class="border-bottom border-gray pb-2 mb-0">Clienetes</h6>
+    <h6 class="border-bottom border-gray pb-2 mb-0">Disponibles</h6>
     <div class="media text-muted pt-3" data-toggle="modal" data-target="#exampleModal2">
       <img class="bd-placeholder-img mr-2 rounded" width="32" height="32" src="logo/metal.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"/>
       <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
-          <strong class="text-gray-dark">Metal</strong>
+          <strong class="text-gray-dark">transportar Metal</strong>
           <a href="#"></a>
         </div>
-        <span class="d-block">Se requiere 500 Kg de metal | Panamá | Nombre del Cliente | <small>10/08/2019</small></span>
+        <span class="d-block">Se requiere transportar 500 Kg de metal | Almacen - Coronado | 1500 $. | <small>10/08/2019</small></span>
       </div>
     </div>
     <div class="media text-muted pt-3" data-toggle="modal" data-target="#exampleModal2">
     <img class="bd-placeholder-img mr-2 rounded" width="32" height="32" src="logo/carton.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"/>
     <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
-          <strong class="text-gray-dark">Carton</strong>
+          <strong class="text-gray-dark">Transportar Carton</strong>
           <a href="#"></a>
         </div>
-        <span class="d-block">Se requiere 300 Kg de carton | Los Santos | Nombre del Cliente | <small>16/08/2019</small></span>
+        <span class="d-block">Se requiere transportar 300 Kg de carton | Panama - Los Santos | 300 $ | <small>16/08/2019</small></span>
       </div>
     </div>
     <div class="media text-muted pt-3" data-toggle="modal" data-target="#exampleModal2">
     <img class="bd-placeholder-img mr-2 rounded" width="32" height="32" src="logo/aluminio.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"/>
     <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
-          <strong class="text-gray-dark">Aluminio</strong>
+          <strong class="text-gray-dark">Transportar Aluminio</strong>
           <a href="#"></a>
         </div>
-        <span class="d-block">Se requiere 1000 Kg de aluminio | Coronado | Nombre del Cliente | <small>11/08/2019</small></span>
+        <span class="d-block">Se requiere transportar 1000 Kg de aluminio | Coronado - Panama | 1000 $ | <small>11/08/2019</small></span>
       </div>
     </div>
     <small class="d-block text-right mt-3">
@@ -124,33 +96,7 @@
     </small>
   </div>
 </main>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Nombre de Proveedor</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-            Material: <b>Botellas de vidrio. </b><br>
-            Cantidad: <b>2 toneladas.</b><br> 
-            Lugar: <b>Nicaragua. </b><br>
-            Precio: <b>2000 $. </b><br>
-            Fecha: <b>01/08/2019.</b><br><br>
-            <input class="form-control" placeholder="Cantidad a Solicitar"><br>
-            <input class="form-control" placeholder="Monto a Cancelar">
 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar</button>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -162,18 +108,18 @@
         </button>
       </div>
       <div class="modal-body">
-            Material Solicitado: <b> </b><br>
-            Cantidad Solicitada: <b></b><br> 
-            Lugar de Entrega: <b> </b><br>
+            Material a transportar: <b> </b><br>
+            Cantidad a transportar: <b></b><br> 
+            Lugar de Origen: <b> </b><br>
+            Lugar de Destino: <b> </b><br>
             Fecha: <b></b><br>
-            <label for="inputState">Seleccionar Material</label>
+            Precio del trabajo: <b></b><br>
+            <label for="inputState">Seleccionar Transportista</label>
             <select id="inputState" class="form-control">
-              <option selected>Material 1</option>
-              <option>Material 2</option>
-              <option>Material 3</option>
+              <option selected>Chofer 1</option>
+              <option>Chofer 2</option>
+              <option>Chofer 3</option>
             </select><br>
-            <input class="form-control" placeholder="Cantidad a despachar"><br>
-            <input class="form-control" placeholder="Monto a Cobrar">
 
       </div>
       <div class="modal-footer">
