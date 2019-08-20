@@ -26,10 +26,10 @@
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Almacen</a>
     <div class="dropdown-menu" aria-labelledby="dropdown01">
-      <a class="dropdown-item" href="#">Registrar Material</a>
-      <a class="dropdown-item" href="#">Ver Inventario</a>
-      <a class="dropdown-item" href="#">Ver Compras</a>
-      <a class="dropdown-item" href="#">Ver Ventas</a>
+      <a class="dropdown-item" href="register_items.php">Registrar Material</a>
+      <a class="dropdown-item" href="pruducts.php">Ver Catalogo</a>
+      <a class="dropdown-item" href="view_buys.php">Ver Compras</a>
+      <a class="dropdown-item" href="view_sales.php">Ver Ventas</a>
     </div>
   </li>
   <li class="nav-item dropdown">
