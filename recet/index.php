@@ -42,6 +42,7 @@
 
   <button class="btn btn-lg btn-primary btn-block" style="background-color:#1c7c1a;" type="submit">Ingresar</button>
   <p class="mt-5 mb-3 text-muted">© 2019 v-1</p>
+  <a href="page/index.html">Pagina</a>
 </form>
 
 
